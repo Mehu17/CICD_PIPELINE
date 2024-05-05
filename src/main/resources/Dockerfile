@@ -1,3 +1,3 @@
 FROM openjdk
-ADD target/department-0.0.1-SNAPSHOT.jar department-0.0.1-SNAPSHOT.jar
-ENTRYPOINT ["java", "-jar", "department-0.0.1-SNAPSHOT.jar"]
+ADD target/employee-0.0.1-SNAPSHOT.jar employee-0.0.1-SNAPSHOT.jar
+ENTRYPOINT ["java", "-jar", "employee-0.0.1-SNAPSHOT.jar"]
